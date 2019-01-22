@@ -1,0 +1,35 @@
+{
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 13,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [
+        120
+    ],
+    "editor.scrollBeyondLastLine": false,
+    "editor.cursorBlinking": "phase",
+    "editor.renderWhitespace": "all",
+    "editor.renderIndentGuides": true,
+    "files.exclude": {
+        "**/.idea": true,
+        "**/coverage": true
+    },
+    "search.quickOpen.includeSymbols": true,
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.wordWrap": "off",
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "off",
+    "workbench.colorTheme": "Cobalt2",
+    "git.autofetch": true,
+    "editor.formatOnSave": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.authors.enabled": false,
+    "search.exclude": {
+        "**/.serverless": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.wordWrapColumn": 120
+}

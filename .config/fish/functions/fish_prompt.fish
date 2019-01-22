@@ -6,6 +6,7 @@ function fish_prompt --description 'Write out the prompt'
 	end
 
 	printf '\n'
+
 	# PWD
 	set_color $fish_color_cwd
 	echo -n (prompt_pwd)
@@ -14,10 +15,15 @@ function fish_prompt --description 'Write out the prompt'
 	printf '%s ' (__fish_git_prompt)
 
 	if not test $last_status -eq 0
-	set_color $fish_color_error
+	    set_color $fish_color_error
 	end
 
 	printf '\n$ '
 
 	set_color normal
+end
+
+function fish_right_prompt -d "Write out the right prompt"
+    set_color yellow
+    date '+%r, %m/%d/%y'
 end

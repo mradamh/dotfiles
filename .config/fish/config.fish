@@ -34,7 +34,6 @@ if not set -q abbrs_initialized
   abbr gpr 'git pull --rebase'
   abbr gr 'git remote'
   abbr gst 'git status'
-  abbr gst 'git stash'
 
   echo 'Done'
 end

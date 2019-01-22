@@ -21,6 +21,7 @@ if not set -q abbrs_initialized
   abbr gb 'git branch'
   abbr gbl 'git blame'
   abbr gc 'git commit -v'
+  abbr gcm 'git commit -m'
   abbr gc! 'git commit -v --amend'
   abbr gco 'git checkout'
   abbr gcb 'git checkout -b'

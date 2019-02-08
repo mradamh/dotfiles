@@ -46,6 +46,7 @@ brew cask install font-source-code-pro
 # Install app
 brew cask install hyper
 brew cask install visual-studio-code
+brew cask insall caffeine
 
 # Remove outdated versions from the cellar.
 brew cleanup

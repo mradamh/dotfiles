@@ -1,3 +1,5 @@
+set PATH (brew --prefix coreutils)/libexec/gnubin $PATH
+
 if not set -q abbrs_initialized
   set -U abbrs_initialized
   echo -n Setting abbreviations...

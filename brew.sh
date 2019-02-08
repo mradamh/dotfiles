@@ -16,6 +16,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install command line tools
 brew install awscli
+brew install diff-so-fancy
 brew install elixir
 brew install findutils
 brew install fish
@@ -26,7 +27,7 @@ brew install gmp
 brew install gnupg
 brew install go
 brew install httpie
-brew install imagemagick --with-webp
+brew install imagemagick
 brew install node
 brew install openssh
 brew install openssl
@@ -40,7 +41,7 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 brew tap homebrew/cask-fonts
-font-source-code-pro
+brew cask install font-source-code-pro
 
 # Install app
 brew cask install hyper

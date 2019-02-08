@@ -10,7 +10,7 @@
 	excludesfile = ~/.gitignore
 	editor = code
 	autocrlf = false
-	pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
+	pager = diff-so-fancy | less --tabs=1,5 -R
 [alias]
 	lg = !"git lg1"
     lg1 = !"git lg1-specific --all"

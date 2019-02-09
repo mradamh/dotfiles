@@ -28,6 +28,7 @@ brew install gnupg
 brew install go
 brew install httpie
 brew install imagemagick
+brew install jq
 brew install node
 brew install openssh
 brew install openssl

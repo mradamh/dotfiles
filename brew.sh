@@ -44,7 +44,7 @@ brew tap homebrew/cask-fonts
 brew cask install font-source-code-pro
 
 # Install app
-brew cask install hyper
+brew cask install iterm2
 brew cask install visual-studio-code
 brew cask insall caffeine
 

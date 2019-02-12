@@ -4,6 +4,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/mradamh/.oh-my-zsh"
 
+# Fixup path for brew
+export PATH=/usr/local/bin:$PATH
+
+
 # Set name of the theme to load
 ZSH_THEME="avit"
 

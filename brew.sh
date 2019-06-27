@@ -16,6 +16,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install command line tools
 brew install awscli
+brew install bat
 brew install diff-so-fancy
 brew install elixir
 brew install findutils

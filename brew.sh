@@ -18,7 +18,6 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 brew install awscli
 brew install bat
 brew install diff-so-fancy
-brew install elixir
 brew install findutils
 brew install fish
 brew install git
@@ -26,7 +25,6 @@ brew install git-extras
 brew install git-lfs
 brew install gmp
 brew install gnupg
-brew install go
 brew install httpie
 brew install imagemagick
 brew install jq

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/mradamh/.oh-my-zsh"
+export ZSH="/Users/adamhorak/.oh-my-zsh"
 
 # Fixup path for brew
 export PATH=/usr/local/bin:$PATH
@@ -22,7 +22,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(docker git npm z)
+plugins=(docker docker-compose git npm yarn sudo z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nano'
 else
-  export EDITOR='code'
+  export EDITOR='storm'
 fi
 
 # ssh

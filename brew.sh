@@ -43,6 +43,7 @@ brew install font-source-code-pro
 
 # Install app
 brew install iterm2
+brew install --cask rectangle
 
 # Remove outdated versions from the cellar.
 brew cleanup

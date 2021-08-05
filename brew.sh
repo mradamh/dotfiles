@@ -15,6 +15,7 @@ brew install coreutils
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install command line tools
+brew install asdf
 brew install awscli
 brew install bat
 brew install diff-so-fancy
@@ -27,7 +28,6 @@ brew install gnupg
 brew install httpie
 brew install imagemagick
 brew install jq
-brew install n
 brew install openssh
 brew install openssl
 brew install screen

@@ -17,6 +17,8 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 # Install command line tools
 brew tap atlassian/homebrew-acli
 brew install acli
+brew install antidote
+brew install atuin
 brew install awscli
 brew install bat
 brew install diff-so-fancy
@@ -42,10 +44,11 @@ brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
-brew install brew install --cask font-inconsolata
+brew install --cask font-inconsolata
 
 # Install app
 brew install iterm2
+brew install --cask orbstack
 brew install --cask rectangle
 brew install --cask rubymine
 

@@ -49,6 +49,7 @@ brew install --cask font-inconsolata
 # Install app
 brew install iterm2
 brew install --cask orbstack
+brew install --cask raycast
 brew install --cask rectangle
 brew install --cask rubymine
 

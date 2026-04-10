@@ -28,10 +28,12 @@ brew install gnupg
 brew install httpie
 brew install imagemagick
 brew install jq
+brew install mise
 brew install openssh
 brew install openssl
 brew install screen
 brew install tree
+brew install z
 
 # Install font tools.
 brew tap bramstein/webfonttools

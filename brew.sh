@@ -15,10 +15,13 @@ brew install coreutils
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install command line tools
+brew tap atlassian/homebrew-acli
+brew install acli
 brew install awscli
 brew install bat
 brew install diff-so-fancy
 brew install findutils
+brew install gh
 brew install git
 brew install git-extras
 brew install git-lfs
@@ -39,13 +42,12 @@ brew tap bramstein/webfonttools
 brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
-brew tap homebrew/cask-fonts
-brew install font-source-code-pro
+brew install brew install --cask font-inconsolata
 
 # Install app
 brew install iterm2
 brew install --cask rectangle
-brew install --cast visual-studio-code
+brew install --cask rubymine
 
 # Remove outdated versions from the cellar.
 brew cleanup

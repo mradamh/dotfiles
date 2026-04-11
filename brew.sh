@@ -45,6 +45,7 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 brew install --cask font-inconsolata
+brew install --cask font-jetbrains-mono-nerd-font
 
 # Install app
 brew install iterm2

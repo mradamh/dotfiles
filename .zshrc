@@ -17,6 +17,8 @@ else
   export EDITOR='rubymine --wait'
 fi
 
+export NODE_AUTH_TOKEN=$(security find-generic-password -a "$USER" -s "github_token" -w)
+
 . /opt/homebrew/etc/profile.d/z.sh
 
 function git_current_branch() {
@@ -27,3 +29,4 @@ alias cp="cp -iv"
 alias mv="mv -iv"
 alias mkdir="mkdir -pv"
 alias ll="ls -FGlAhp"
+eval "$(mise activate zsh)"
